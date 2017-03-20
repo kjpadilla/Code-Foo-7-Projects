@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="jquery-3.1.1.min.js" language="Javascript"></script>
+	<script src="index.js" language="Javascript"></script>
+</head>
+<body>
+
+
+<!-- This menu displays the link at the top of the page 
+to the articles page and the header that is colored in red titled VIDEOS -->
+<ul class = "menu">
+	<li class = "videosHeader"><a> VIDEOS </a></li>
+	<li class = "linkToArticles"><a href="articles.html">ARTICLES</a></li>
+</ul>
+
+
+<!-- This list displays all of the buttons that drop down the images
+that are linked to the IGN website. The buttons are added dynamically in 
+the javascript file -->
+<ol id="ignVideoList" class="videoList">
+</ol>
+
+
+<!-- This button will cause a script to run that dynamically creates 5 more
+buttons that drop down links to the IGN website. -->
+<button onclick="loadMoreVideos()" class="loadButton">
+SEE MORE VIDEOS... </button>
+
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+body
+{
+	background-color: #030303;
+	max-width: 1250px;
+	margin: auto;
+}
+ 
+/* The menu section sets up the background
+that the link and header at the top of the
+screen will be placed inside of. */
+.menu
+{
+	background-color: #fbfbfb;
+	box-sizing: border-box;
+	list-style-type: none;
+	float:left;
+	width: 100%;
+	height: 140px;
+	margin: 0;
+	padding-left: 80px;
+	padding-right: 0;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-width: 1px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 0;
+	border-bottom: 0;
+	border-style: solid;
+	border-left-color: #4b4b4b;
+	border-right-color: #7b7b7b;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.menu li
+{
+	font-size: 30px;
+	float: left;
+	width: 45%;
+}
+
+.menu a 
+{
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	text-decoration: underline;
+}
+
+/* This section is for the link to the articles 
+page on the top right side of the screen */
+.linkToArticles
+{
+	background-color: #fbfbfb; 
+	float:left;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:0;
+	padding-right: 0;
+	border-bottom-right-radius: 70px;
+	border-top-right-radius: 70px;
+	border-top-color: #e39494;
+	border-right-color: #e39494;
+	border-bottom-color: #e39494;
+	border-left: 0;
+	border-style: solid;
+}
+
+.linkToArticles a
+{
+	color: #c31919;
+}
+
+/* This section is for the non-clickable header
+"VIDEOS" on the top left side of the screen */
+.videosHeader
+{
+	background-image: url(menu.png);
+	color: #fbfbfb; 
+	float:left;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-left-radius: 70px; 
+	border-bottom-left-radius: 70px;
+	border-top-color: #c83a3a;
+	border-bottom-color: #d96b6b;
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+}
+
+.videosHeader a:hover
+{
+	text-decoration: none;
+}
+
+/* This section formats the list of buttons that
+drop down images when clicked. */
+.videoList
+{
+	background-color: #fbfbfb;
+	list-style-type: none;
+	float:left;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.videoList li
+{
+	background-color: #fbfbfb;
+	list-style-type: none;
+	float:left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.videoList button
+{
+	background-image: url(listBackgroundLarge.png);
+	background-color: #fbfbfb;
+	color: #535353;
+	width: 100%;
+	height: 150px;
+	display: block;
+	margin-top: 0px;
+	padding-bottom: 25px;
+	outline: none;
+	border-style: solid;
+	border-width: 1px;
+	border-left-color: #4b4b4b;
+	border-right-color: #7b7b7b;
+	border-top: 0;
+	border-bottom: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	line-height: 50px;
+	padding-left: 5.59em;
+	text-indent: -5.59em;
+}
+
+.videoList button:focus
+{
+	outline-color: #c31919;
+	outline-style: solid;
+}
+
+.videoList button:hover
+{
+	background-image: url(hover.png);
+}
+
+/* This section formats the drop
+down image that appears after clicking one
+of the buttons in the list */
+.displayingList
+{
+	list-style-type: none;
+	width: 100%;
+	float: left;
+	padding-top: 0;
+	margin:0;
+	border-style: solid;
+	border-color: yellow;
+}
+
+.displayingList li
+{
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.displayingAnchor
+{
+	background-color: #030303;
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+
+.displayingAnchor img
+{
+	display: block;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fbfbfb;
+}
+
+
+/* This final section formats the load button at the
+very bottom of the screen */
+.loadButton
+{
+	background-color: #fbfbfb;
+	color: #8b8b8b;
+	width: 100%;
+	height: 150px;
+	display: block;
+	outline: none;
+	border-style: solid;
+	border-width: 1px;
+	border-left-color: #4b4b4b;
+	border-right-color: #7b7b7b;
+	border-top: 0;
+	border-bottom: d3d3d3;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 0px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 5.4em;
+}
+
+.loadButton:hover
+{
+	color: #c31919;
+}
